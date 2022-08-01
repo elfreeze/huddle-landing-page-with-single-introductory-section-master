@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/images/bg-mobile.svg), hsl(257, 40%, 49%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    margin-block-end: 20px;
+    padding: 25px 20px;
+}
+header > img {
+    width: 150px;
+    height: 30px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.img-container {
+    margin-block-end: 30px;
+}
+.img-container > img {
+    width: 300px;
+    height: 220px;
+}
+.text-area {
+    padding: 10px 35px;
+}
+.text-area > h1 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-block-end: 20px;
+}
+.text-area > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-block-end: 25px;
+}
+.text-area > button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+}
+.social-icons {
+    color: #fff;
+    margin: 50px auto;
+}
+.social-icons > a > i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-inline-end: 5px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #fff;
+    margin-block-end: 20px;
+}
+.attribution a { 
+    color: hotpink; 
+} 
+
+@media only screen and (min-width: 768px) {
+    body {
+        max-height: unset;
+        min-height: 100vh;
+        padding: 30px;
+    }
+    header {
+        margin-block-end: 20px;
+        padding: 25px 20px;
+    }
+    header > img {
+        width: 200px;
+        height: 50px;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-container {
+        width: 60%;
+        height: 60vh;
+        margin-block-end: 0;
+    }
+    .img-container > img {
+        width: 90%;
+        height: 100%;
+    }
+    .text-area {
+        width: 50%;
+        height: 60vh;
+        padding: 20px;
+        text-align: left;
+    }
+    .text-area > h1 {
+        font-size: 40px;
+        margin-block-start: 20px;
+    }
+    .text-area > p {
+        font-size: 16px;
+    }
+    main > button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+    }
+    .social-icons {
+        width: 100%;
+        text-align: right;
+        margin-inline-end: 50px;
+    }
+    .social-icons > a > i {
+        border: 1px solid #fff;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        color: #fff;
+    }
+    .attribution a { 
+        color: hotpink; 
+    } 
+    
+}
