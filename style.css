@@ -76,7 +76,7 @@ main {
 .social-icons > a > i:hover {
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
-}
+} 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
