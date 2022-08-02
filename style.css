@@ -112,7 +112,7 @@ main {
     }
     .img-container {
         width: 60%;
-        height: 60vh;
+        height: 500px;
         margin-block-end: 0;
     }
     .img-container > img {
@@ -121,7 +121,7 @@ main {
     }
     .text-area {
         width: 50%;
-        height: 60vh;
+        height: 500px;
         padding: 20px;
         text-align: left;
     }
