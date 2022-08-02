@@ -66,6 +66,9 @@ main {
     color: #fff;
     margin: 50px auto;
 }
+.hidden {
+    display: none;
+}
 .social-icons > a > i {
     border: 1px solid #fff;
     border-radius: 50%;
