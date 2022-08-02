@@ -14,7 +14,6 @@ body {
     flex-direction: column;
 }
 header {
-    margin-block-end: 20px;
     padding: 25px 20px;
 }
 header > img {
@@ -26,6 +25,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-block-start: 20px;
 }
 .img-container {
     margin-block-end: 30px;
@@ -109,6 +109,7 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        margin-block-start: 50px;
     }
     .img-container {
         width: 60%;
@@ -130,7 +131,7 @@ main {
         margin-block-start: 20px;
     }
     .text-area > p {
-        font-size: 16px;
+        font-size: 17px;
     }
     .text-area > button {
         width: 200px;
